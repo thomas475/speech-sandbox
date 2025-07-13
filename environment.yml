@@ -1,0 +1,15 @@
+name: speech-sandbox
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.11.13
+  - ffmpeg
+  - sox
+  - numpy==2.3.1
+  - notebook
+  - ipython
+  - pip
+  - pip:
+      - torch==2.7.1
+      - torchaudio==2.7.1
